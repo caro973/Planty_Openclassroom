@@ -1,0 +1,168 @@
+/*
+Theme Name: Hello Elementor Child
+Theme URI: https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash
+Template: hello-elementor
+Author: Elementor Team
+Author URI: https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash
+Description: Hello Elementor is a lightweight and minimalist WordPress theme that was built specifically to work seamlessly with the Elementor site builder plugin. The theme is free, open-source, and designed for users who want a flexible, easy-to-use, and customizable website. The theme, which is optimized for performance, provides a solid foundation for users to build their own unique designs using the Elementor drag-and-drop site builder. Its simplicity and flexibility make it a great choice for both beginners and experienced Web Creators.
+Tags: accessibility-ready,flexible-header,custom-colors,custom-menu,custom-logo,featured-images,rtl-language-support,threaded-comments,translation-ready
+Version: 3.3.0.1746459276
+Updated: 2025-05-05 15:34:36
+
+*/
+
+/*POLICE*/
+
+@font-face {
+    font-family: 'Syne';
+    src: 
+         url('fonts/Syne/Syne-VariableFont_wght.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: 
+         url('fonts/Syne/static/Syne-Bold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: 
+         url('fonts/Syne/static/Syne-ExtraBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: 
+         url('fonts/Syne/static/Syne-Medium.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: 
+         url('fonts/Syne/static/Syne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Syne';
+    src: 
+         url('fonts/Syne/static/Syne-SemiBold.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family:'Syne',sans-serif;
+}
+
+/*FORMULARE DE COMMANDE*/
+
+.form-group input{
+    width: 60px;
+
+}
+
+.form-group .option {
+    display: inline-block;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.form-group .option img {
+    width: 186px;
+    height: 128,97px;
+}
+
+
+
+/*FORMULAIRE DEUX COLONNES*/
+
+
+.form-container [type="text"], input[type="email"] {
+    width: 383px;
+    height: 71px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+
+label {
+    color: white;
+    font-family: 'Syne',sans-serif;
+    
+}
+.form-container {
+    display: flex;              
+    columns: 2;
+    align-content: center;           
+    justify-content: space-between; 
+    gap: 20px; 
+}
+
+[type=button], [type=submit], button{
+    display: flex;
+    align-items: center;
+    background-color: #E0B9B4;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin:0 auto;
+    width: 198px;
+    height: 55px;
+    margin-top: 20px;
+    
+}
+
+#wpcf7-f138-p29-o2 > form > div.form-container > div.form-section.col_g{
+
+    border-right-style: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-right:35px;
+}
+
+/* FORMULAIRE CONTACT */
+
+
+.contact label{
+    color: black;
+   /* margin-left: 25px;*/
+    font-family: 'Syne',sans-serif;
+}
+
+.contact input[type=date], input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
+    border:none;
+    border-radius: 7px;
+    width: 383px;
+    margin-top: 15px;
+
+}
+
+/* HEADER */
+
+.btn-commander{
+    background-color:#E0B9B4;
+    color: white !important;
+}
+
+.btn-commander:hover{
+    background-color:#C02E44;
+    
+}
+
+
+
