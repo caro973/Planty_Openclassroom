@@ -149,20 +149,33 @@ label {
     border-radius: 7px;
     width: 383px;
     margin-top: 15px;
-
 }
 
 /* HEADER */
 
-.btn-commander{
-    background-color:#E0B9B4;
-    color: white !important;
-}
+.btn-commander {
+  height: 80px;
+  width: 200px;
+  background-color: #dc9f96;
+}  
 
-.btn-commander:hover{
-    background-color:#C02E44;
+.btn-commander a{
+    color: white !important;
+    font-weight: 700 !important;
+    font-size: 16px !important;
     
 }
+
+.btn-commander :hover{
+    background-color:#C02E44;
+    height: 80px;
+}
+
+#menu-item-35#menu-item-35 > a:hover{
+    font-weight: 700;
+    font-size: 13px;
+}
+
 
 
 
