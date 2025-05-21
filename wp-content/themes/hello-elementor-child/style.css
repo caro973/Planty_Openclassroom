@@ -137,17 +137,29 @@ label {
 
 /* FORMULAIRE CONTACT */
 
+.bouton-contact{
+    display: block;
+    margin: 0 auto;
+    width: 198px;
+    height: 55px; 
+}
 
 .contact label{
     color: black;
-   /* margin-left: 25px;*/
     font-family: 'Syne',sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.contact input{
+    height: 71px;
 }
 
 .contact input[type=date], input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
     border:none;
     border-radius: 7px;
     width: 383px;
+
     margin-top: 15px;
 }
 
