@@ -159,7 +159,6 @@ label {
     border:none;
     border-radius: 7px;
     width: 383px;
-
     margin-top: 15px;
 }
 
@@ -188,5 +187,18 @@ label {
     font-size: 13px;
 }
 
+/* DESIGN GLOBAL SITE */
 
+#btn-gouts > div > div > a > span{    
+    width: 198px;
+    height: 55px;
+}
 
+#btn-gouts > div > div > a > span > span{
+    margin: 20px auto;
+    text-align: center;
+}
+
+#btn-gouts > div > div > a{
+    padding: 0 !important;
+}
