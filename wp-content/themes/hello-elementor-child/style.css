@@ -60,10 +60,17 @@ Updated: 2025-05-05 15:34:36
     font-weight: normal;
     font-style: normal;
 }
+/*BODY*/
 
 body{
     font-family:'Syne',sans-serif;
 }
+
+.background{
+    border-bottom-left-radius: 50% 25px;
+    border-bottom-right-radius: 50% 25px;
+}
+
 
 /*FORMULARE DE COMMANDE*/
 
@@ -137,29 +144,63 @@ label {
 
 /* FORMULAIRE CONTACT */
 
+.form-contact label{
+align-items: center;
+font-family: "Syne";
+color: black;
+width: 100%;
+}
+
+#wpcf7-f168-p17-o1 > form > div.form-contact > p:nth-child(3) > label > span > textarea{
+border:none;
+width: 383px;
+border-radius: 5px;
+}
+
+
+.mail input{
+
+width: 383px;
+height: 71px ;
+border: none ;
+border-radius: 5px ;
+font-size: 15px ;
+display: block;
+}
+
+.form-contact.message input textarea{
+
+height: 100px;
+border: none ;
+font-size: 15px;
+margin-bottom: 185px;
+display: block;
+}
+
+.name input {
+
+width: 383px ;
+height: 71px ;
+border: none ;
+border-radius: 5px 
+}
+
 .bouton-contact{
-    display: block;
-    margin: 0 auto;
-    width: 198px;
-    height: 55px; 
+width: 198px;
+height: 55px;
+background: #E0B9B4;
+color: #FFFFFF;
+border: none;
+border-radius: 5px;
+margin-top: 0px;
+font-size: 15px;
+display: block;
+margin: 0 auto;
 }
 
-.contact label{
-    color: black;
-    font-family: 'Syne',sans-serif;
-    font-weight: 400;
-    font-size: 20px;
-}
-
-.contact input{
-    height: 71px;
-}
-
-.contact input[type=date], input[type=email], input[type=password], input[type=search], input[type=tel], input[type=text], input[type=url], select, textarea {
-    border:none;
-    border-radius: 7px;
-    width: 383px;
-    margin-top: 15px;
+.bouton-contact:hover {
+background-color: #C02E44;
+color: #FFFFFF;
 }
 
 /* HEADER */
@@ -202,3 +243,6 @@ label {
 #btn-gouts > div > div > a{
     padding: 0 !important;
 }
+
+
+
