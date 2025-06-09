@@ -10,7 +10,7 @@ Version: 3.3.0.1746459276
 Updated: 2025-05-05 15:34:36
 
 */
-
+/*
 /*POLICE*/
 
 @font-face {
@@ -184,7 +184,7 @@ border: none ;
 border-radius: 5px 
 }
 
-.bouton-contact{
+.bouton-contact  {
 width: 198px;
 height: 55px;
 background: #E0B9B4;
@@ -207,6 +207,7 @@ color: #FFFFFF;}
   height: 80px;
   width: 200px;
   background-color: #dc9f96;
+  
 }  
 
 .btn-commander a{
@@ -224,7 +225,27 @@ color: #FFFFFF;}
 #menu-item-35#menu-item-35 > a:hover{
     font-weight: 700;
     font-size: 13px;
+   
 }
+
+/* Style pour le lien d'administration */
+li.menu-item a[href*="wp-admin"] {
+    text-align: center;
+    color: black;
+    position: relative;
+    display: block;
+   
+    color: black;
+    text-decoration: none;
+}
+
+#menu-item-admin > a{
+     padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left:0px;
+    padding-right: 48px;
+}
+
 
 /* DESIGN GLOBAL SITE */
 
@@ -409,6 +430,5 @@ padding-right: 0;
 padding-bottom: 50px;
 
 }
-
 
 }

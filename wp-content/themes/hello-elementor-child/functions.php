@@ -22,3 +22,51 @@ endif;
 add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 20 );
 
 // END ENQUEUE PARENT ACTION
+
+// Enregistrer les menus dans le thème enfant
+function theme_enfant_setup() {
+    // Enregistrer un nouvel emplacement de menu spécifique au thème enfant
+    register_nav_menus(array(
+        'child_header' => __('Child Header Menu', 'hello-elementor-child'),
+    ));
+}
+add_action('after_setup_theme', 'theme_enfant_setup');
+
+
+
+
+function add_admin_link_to_menu($items, $args) {
+
+        // Créez un nouvel élément de menu pour le lien "Admin"
+        $admin_item = (object) array(
+            'title'            => 'Admin',
+            'menu_item_parent' => 0,
+            'ID'               => 'admin',
+            'db_id'            => '',
+            'url'              => admin_url(),
+            'classes'          => array('menu-item'),
+        );
+
+        // Initialisez un tableau pour stocker les nouveaux éléments de menu
+        $new_items = array();
+
+        // Parcourez les éléments de menu existants
+        foreach ($items as $item) {
+            // Ajoutez chaque élément au nouveau tableau
+            $new_items[] = $item;
+
+            // Ajoutez l'élément "Admin" après "Nous Rencontrer"
+            if ($item->title == 'Nous Rencontrer') {
+                $new_items[] = $admin_item;
+            }
+        }
+
+        return $new_items;
+
+}
+add_filter('wp_nav_menu_objects', 'add_admin_link_to_menu', 10, 2);
+
+
+
+
+
