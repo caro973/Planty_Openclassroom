@@ -24,6 +24,7 @@ add_action( 'wp_enqueue_scripts', 'child_theme_configurator_css', 20 );
 // END ENQUEUE PARENT ACTION
 
 // Enregistrer les menus dans le thème enfant
+
 function theme_enfant_setup() {
     // Enregistrer un nouvel emplacement de menu spécifique au thème enfant
     register_nav_menus(array(
@@ -32,10 +33,7 @@ function theme_enfant_setup() {
 }
 add_action('after_setup_theme', 'theme_enfant_setup');
 
-
-
-
-function add_admin_link_to_menu($items, $args) {
+function add_admin_link_to_menu($items, $args) { 
 
         // Créez un nouvel élément de menu pour le lien "Admin"
         $admin_item = (object) array(

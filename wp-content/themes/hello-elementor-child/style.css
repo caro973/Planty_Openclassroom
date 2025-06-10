@@ -132,7 +132,10 @@ label {
     
 }
 
-#wpcf7-f138-p29-o2 > form > div.form-container > div.form-section.col_g{
+#wpcf7-f138-p29-o2 > 
+form > 
+div.form-container > 
+div.form-section.col_g{
 
     border-right-style: solid;
     border-color: white;
@@ -151,10 +154,23 @@ color: black;
 width: 100%;
 }
 
-#wpcf7-f168-p17-o1 > form > div.form-contact > p:nth-child(3) > label > span > textarea{
+#wpcf7-f168-p17-o1 > 
+form > 
+div.form-contact > 
+p:nth-child(3) > 
+label > span > textarea /*ZONE MESSAGE*/{
 border:none;
 width: 383px;
 border-radius: 5px;
+}
+
+.form-contact.message input textarea{
+
+height: 100px;
+border: none ;
+font-size: 15px;
+margin-bottom: 185px;
+display: block;
 }
 
 .mail input{
@@ -167,14 +183,6 @@ font-size: 15px ;
 display: block;
 }
 
-.form-contact.message input textarea{
-
-height: 100px;
-border: none ;
-font-size: 15px;
-margin-bottom: 185px;
-display: block;
-}
 
 .name input {
 
@@ -327,6 +335,14 @@ border:none;
 padding: 0px;
 }
 
+#content > div > div > 
+div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > 
+div.elementor-element.elementor-element-bad43d2.elementor-absolute.elementor-widget__width-initial.canette-planty.elementor-hidden-mobile.elementor-widget.elementor-widget-image > 
+div > img {
+
+    width: 85%;
+}
+
 }
 
 
@@ -421,14 +437,26 @@ padding: 0px;
 
 /*PAGE D ACCUEIL*/
 
-.elementor-10 .elementor-element.elementor-element-ef5029d .gallery{
+.elementor-10 .elementor-element.elementor-element-ef5029d .gallery /*Gallerie photo*/{
 margin: 0 auto;
 
 }
-.elementor-10 .elementor-element.elementor-element-ef5029d .gallery-item{
+.elementor-10 .elementor-element.elementor-element-ef5029d .gallery-item /*Image Gallerie*/{
 padding-right: 0;
 padding-bottom: 50px;
 
+}
+
+/*CANNETTE FOOTER */
+#content > div > div > 
+div.elementor-element.elementor-element-6125452.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > 
+div /*CONTENAIRE CANNETTE*/{
+    padding-bottom: 0px;
+}
+
+#content > div > div > div.elementor-element.elementor-element-6125452.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > 
+div > div > div > img{
+    height: 71px;
 }
 
 }

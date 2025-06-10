@@ -1,0 +1,45 @@
+# Ignorer les fichiers de configuration locaux
+wp-config.php
+
+# Ignorer le dossier de cache
+wp-content/cache/
+
+# Ignorer le dossier des plugins et thèmes téléchargés
+wp-content/plugins/
+wp-content/themes/
+
+#Backups
+wp-content/ai1wm-backups/
+
+# Ignorer les fichiers de logs
+*.log
+
+# Ignorer les fichiers de sauvegarde SQL
+*.sql
+
+# Ignorer les fichiers de sauvegarde générés par certains plugins
+*backup*
+*Backup*
+
+# Ignorer les fichiers de configuration de l'IDE
+.idea/
+*.swp
+*.swo
+
+# Ignorer les fichiers de dépendances et de build
+node_modules/
+vendor/
+composer.lock
+
+# Ignorer les fichiers de media uploadés
+wp-content/uploads/
+
+# Ignorer les fichiers de configuration de l'environnement
+.env
+
+# Ignorer les fichiers de configuration de Docker
+docker-compose.yml
+Dockerfile
+
+# Ignorer les fichiers de configuration de l'environnement de développement
+*.local.php
