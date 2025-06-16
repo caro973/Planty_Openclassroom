@@ -233,8 +233,13 @@ color: #FFFFFF;}
 #menu-item-35#menu-item-35 > a:hover{
     font-weight: 700;
     font-size: 13px;
-   
+    padding: 0 auto;
 }
+.elementor-285 .elementor-element.elementor-element-ca922d5 .menu-item a.hfe-menu-item, 
+.elementor-285 .elementor-element.elementor-element-ca922d5 .menu-item a.hfe-sub-menu-item{
+    margin-bottom:0px;
+}
+
 
 /* Style pour le lien d'administration */
 li.menu-item a[href*="wp-admin"] {
@@ -448,15 +453,14 @@ padding-bottom: 50px;
 }
 
 /*CANNETTE FOOTER */
-#content > div > div > 
-div.elementor-element.elementor-element-6125452.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > 
-div /*CONTENAIRE CANNETTE*/{
-    padding-bottom: 0px;
-}
 
 #content > div > div > div.elementor-element.elementor-element-6125452.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > 
 div > div > div > img{
-    height: 71px;
+    height: 47px !important;
+}
+
+.footer-rencontrer{
+    height: auto;
 }
 
 }

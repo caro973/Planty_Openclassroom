@@ -34,7 +34,8 @@ function theme_enfant_setup() {
 add_action('after_setup_theme', 'theme_enfant_setup');
 
 function add_admin_link_to_menu($items, $args) { 
-
+    //condition utilisateur connecter//
+if (is_user_logged_in()) {
         // Créez un nouvel élément de menu pour le lien "Admin"
         $admin_item = (object) array(
             'title'            => 'Admin',
@@ -60,7 +61,8 @@ function add_admin_link_to_menu($items, $args) {
         }
 
         return $new_items;
-
+    }
+    else {return $items;} //condition si utilisateurs deconnécté header d'origine//
 }
 add_filter('wp_nav_menu_objects', 'add_admin_link_to_menu', 10, 2);
 
