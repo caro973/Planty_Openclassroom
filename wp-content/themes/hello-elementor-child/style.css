@@ -348,6 +348,12 @@ div > img {
     width: 85%;
 }
 
+/*HEADER*/
+li.menu-item a[href*="wp-admin"] {
+text-align:start;
+margin-left: 50px;
+}
+
 }
 
 
@@ -386,6 +392,8 @@ border-radius: 5px
 .title-form .contact-us{
     margin-top:40px;
 }
+
+
 
 /*FORMULAIRE COLONNE*/
 
