@@ -93,6 +93,21 @@ body{
 
 /*FORMULAIRE DEUX COLONNES*/
 
+.form-container h2{
+    color: #FFFFFF;
+    font-family: 'Syne';
+    font-weight: 700;
+    font-size: 30px;
+   
+
+}
+
+.form-container{
+    border-color: #FFFFFF !important;
+    border-top:solid;
+    border-width: 1px;
+    padding-top: 40px;
+}
 
 .form-container [type="text"], input[type="email"] {
     width: 383px;
@@ -332,7 +347,7 @@ background-color: #dc9f96 !important;
 .form-group{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    
 }
 
 #wpcf7-f138-p29-o2 > form > div.form-container > div.form-section.col_g{
@@ -352,6 +367,12 @@ div > img {
 li.menu-item a[href*="wp-admin"] {
 text-align:start;
 margin-left: 50px;
+}
+
+/*CANETTE HOME*/
+
+.elementor-10 .elementor-element.elementor-element-bad43d2 img{
+    height: 572px;
 }
 
 }
