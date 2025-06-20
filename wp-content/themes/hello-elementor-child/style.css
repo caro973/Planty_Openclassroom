@@ -15,56 +15,57 @@ Updated: 2025-05-05 15:34:36
 
 @font-face {
     font-family: 'Syne';
-    src: 
-         url('fonts/Syne/Syne-VariableFont_wght.ttf') format('truetype');
+    src:
+        url('fonts/Syne/Syne-VariableFont_wght.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Syne';
-    src: 
-         url('fonts/Syne/static/Syne-Bold.ttf') format('truetype');
+    src:
+        url('fonts/Syne/static/Syne-Bold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Syne';
-    src: 
-         url('fonts/Syne/static/Syne-ExtraBold.ttf') format('truetype');
+    src:
+        url('fonts/Syne/static/Syne-ExtraBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Syne';
-    src: 
-         url('fonts/Syne/static/Syne-Medium.ttf') format('truetype');
+    src:
+        url('fonts/Syne/static/Syne-Medium.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Syne';
-    src: 
-         url('fonts/Syne/static/Syne-Regular.ttf') format('truetype');
+    src:
+        url('fonts/Syne/static/Syne-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Syne';
-    src: 
-         url('fonts/Syne/static/Syne-SemiBold.ttf') format('truetype');
+    src:
+        url('fonts/Syne/static/Syne-SemiBold.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-body{
-    font-family:'Syne',sans-serif;
+body {
+    font-family: 'Syne', sans-serif;
 }
-.background{
+
+.background {
     border-bottom-left-radius: 50% 25px;
     border-bottom-right-radius: 50% 25px;
 }
@@ -72,7 +73,7 @@ body{
 
 /*FORMULARE DE COMMANDE*/
 
-.form-group input{
+.form-group input {
     width: 60px;
 
 }
@@ -89,27 +90,24 @@ body{
     height: 128.97px;
 }
 
-
-
 /*FORMULAIRE DEUX COLONNES*/
 
-.form-container h2{
+.form-container h2 {
     color: #FFFFFF;
     font-family: 'Syne';
     font-weight: 700;
     font-size: 30px;
-   
-
 }
 
-.form-container{
+.form-container {
     border-color: #FFFFFF !important;
-    border-top:solid;
+    border-top: solid;
     border-width: 1px;
     padding-top: 40px;
 }
 
-.form-container [type="text"], input[type="email"] {
+.form-container [type="text"],
+input[type="email"] {
     width: 383px;
     height: 71px;
     padding: 10px;
@@ -120,18 +118,20 @@ body{
 
 label {
     color: white;
-    font-family: 'Syne',sans-serif;
-    
-}
-.form-container {
-    display: flex;              
-    columns: 2;
-    align-content: center;           
-    justify-content: space-between; 
-    gap: 20px; 
+    font-family: 'Syne', sans-serif;
 }
 
-[type=button], [type=submit], button{
+.form-container {
+    display: flex;
+    columns: 2;
+    align-content: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+[type=button],
+[type=submit],
+button {
     display: flex;
     align-items: center;
     background-color: #E0B9B4;
@@ -140,121 +140,111 @@ label {
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    margin:0 auto;
+    margin: 0 auto;
     width: 198px;
     height: 55px;
     margin-top: 20px;
-    
 }
 
-#wpcf7-f138-p29-o2 > 
-form > 
-div.form-container > 
-div.form-section.col_g{
-
+#wpcf7-f138-p29-o2>form>div.form-container>div.form-section.col_g {
     border-right-style: solid;
     border-color: white;
     border-width: 1px;
-    padding-right:35px;
+    padding-right: 35px;
 }
 
 /* FORMULAIRE CONTACT */
 
-
-
-.form-contact label{
-align-items: center;
-font-family: "Syne";
-color: black;
-width: 100%;
+.form-contact label {
+    align-items: center;
+    font-family: "Syne";
+    color: black;
+    width: 100%;
 }
 
-#wpcf7-f168-p17-o1 > 
-form > 
-div.form-contact > 
-p:nth-child(3) > 
-label > span > textarea /*ZONE MESSAGE*/{
-border:none;
-width: 383px;
-border-radius: 5px;
+#wpcf7-f168-p17-o1>form>div.form-contact>p:nth-child(3)>label>span>textarea
+
+/*ZONE MESSAGE*/
+    {
+    border: none;
+    width: 383px;
+    border-radius: 5px;
 }
 
-.form-contact.message input textarea{
-
-height: 100px;
-border: none ;
-font-size: 15px;
-margin-bottom: 185px;
-display: block;
+.form-contact.message input textarea {
+    height: 100px;
+    border: none;
+    font-size: 15px;
+    margin-bottom: 185px;
+    display: block;
 }
 
-.mail input{
-
-width: 383px;
-height: 71px ;
-border: none ;
-border-radius: 5px ;
-font-size: 15px ;
-display: block;
+.mail input {
+    width: 383px;
+    height: 71px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    display: block;
 }
 
 
 .name input {
-
-width: 383px ;
-height: 71px ;
-border: none ;
-border-radius: 5px 
+    width: 383px;
+    height: 71px;
+    border: none;
+    border-radius: 5px
 }
 
-.bouton-contact  {
-width: 198px;
-height: 55px;
-background: #E0B9B4;
-color: #FFFFFF;
-border: none;
-border-radius: 5px;
-margin-top: 0px;
-font-size: 15px;
-display: block;
-margin: 0 auto;
+.bouton-contact {
+    width: 198px;
+    height: 55px;
+    background: #E0B9B4;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    margin-top: 0px;
+    font-size: 15px;
+    display: block;
+    margin: 0 auto;
 }
 
 .bouton-contact:hover {
-background-color: #C02E44;
-color: #FFFFFF;}
+    background-color: #C02E44;
+    color: #FFFFFF;
+}
 
 /* HEADER */
 
 .btn-commander {
-  height: 80px;
-  width: 200px;
-  background-color: #dc9f96;
-  
-}  
+    height: 80px;
+    width: 200px;
+    background-color: #dc9f96;
 
-.btn-commander a{
+}
+
+.btn-commander a {
     color: white !important;
     font-weight: 700 !important;
     font-size: 16px !important;
-    
+
 }
 
-.btn-commander :hover{
-    background-color:#C02E44;
+.btn-commander :hover {
+    background-color: #C02E44;
     height: 80px;
 }
 
-#menu-item-35#menu-item-35 > a:hover{
+#menu-item-35#menu-item-35>a:hover {
     font-weight: 700;
     font-size: 13px;
     padding: 0 auto;
 }
-.elementor-285 .elementor-element.elementor-element-ca922d5 .menu-item a.hfe-menu-item, 
-.elementor-285 .elementor-element.elementor-element-ca922d5 .menu-item a.hfe-sub-menu-item{
-    margin-bottom:0px;
-}
 
+.elementor-285 .elementor-element.elementor-element-ca922d5 .menu-item a.hfe-menu-item,
+.elementor-285 .elementor-element.elementor-element-ca922d5 .menu-item a.hfe-sub-menu-item {
+    margin-bottom: 0px;
+}
 
 /* Style pour le lien d'administration */
 li.menu-item a[href*="wp-admin"] {
@@ -262,234 +252,272 @@ li.menu-item a[href*="wp-admin"] {
     color: black;
     position: relative;
     display: block;
-   
     color: black;
     text-decoration: none;
 }
 
-#menu-item-admin > a{
-     padding-top: 30px;
+#menu-item-admin>a {
+    padding-top: 30px;
     padding-bottom: 30px;
-    padding-left:0px;
+    padding-left: 0px;
     padding-right: 48px;
 }
 
-
 /* DESIGN GLOBAL SITE */
 
-#btn-gouts > div > div > a > span{    
+#btn-gouts>div>div>a>span {
     width: 198px;
     height: 55px;
 }
 
-#btn-gouts > div > div > a > span > span{
+#btn-gouts>div>div>a>span>span {
     margin: 20px auto;
     text-align: center;
 }
 
-#btn-gouts > div > div > a{
+#btn-gouts>div>div>a {
     padding: 0 !important;
 }
 
+/* Feuille gauche */
+#content > div > div > div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-a5538ea.elementor-absolute.feuille-g.elementor-widget.elementor-widget-image {
+    left: 24%;
+}
+
+/* Feuille droite */
+#content > div > div > div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-0719614.elementor-absolute.feuille-d.elementor-widget.elementor-widget-image {
+    right:22%;
+}
 /*******************RESPONSIVE TABLETTE*******************/
 
-@media only screen and (max-width:1024px){
+@media only screen and (max-width:1024px) {
 
+    /*FORMULAIRE COLONNE*/
+    #content>div>div>div.elementor-element.elementor-element-8bf2433.e-con-full.e-flex.e-con.e-parent.e-lazyloaded>div {
+        width: 85%;
+        /*titre formulaire colonne*/
+    }
 
-/*FORMULAIRE COLONNE*/
-#content > div > div > div.elementor-element.elementor-element-8bf2433.e-con-full.e-flex.e-con.e-parent.e-lazyloaded > div{
-    width: 85%;/*titre formulaire colonne*/
-}
+    /*NOUS RENCONTRER*/
+    .container-meet-us {
+        display: flex;
+        justify-content: center;
+    }
 
-/*NOUS RENCONTRER*/
-.container-meet-us{
-    display: flex;
-    justify-content: center;
-}
+    /*COLONNE CONTACT*/
 
-/*COLONNE CONTACT*/
+    #wpcf7-f138-p29-o2>form>p>input {
+        margin: 0 auto;
+    }
 
-#wpcf7-f138-p29-o2 > form > p > input{
-    margin: 0 auto;
-}
-.form-contact{
-    display: grid;
-    place-items: center;
-    grid-column: auto;
-}
+    .form-contact {
+        display: grid;
+        place-items: center;
+        grid-column: auto;
+    }
 
-.bouton-contact [type=button], [type=submit], button{
-    margin: 0;
-}
-.title-form .contact-us{
-    margin-top:40px;
-}
+    .bouton-contact [type=button],
+    [type=submit],
+    button {
+        margin: 0;
+    }
 
-.btn-commander {
-  height: 80px;
-  width: 200px;
-  background-color: #dc9f96 !important;
-}  
+    .title-form .contact-us {
+        margin-top: 40px;
+    }
 
-.btn-commander a{
-    color: white !important;
-    font-weight: 700 !important;
-    font-size: 16px !important;
-background-color: #dc9f96 !important;
+    .btn-commander {
+        height: 80px;
+        width: 200px;
+        background-color: #dc9f96 !important;
+    }
 
-}
+    .btn-commander a {
+        color: white !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        background-color: #dc9f96 !important;
+    }
 
-.btn-commander :hover{
-    background-color:#C02E44;
-    height: 80px;
-}
+    .btn-commander :hover {
+        background-color: #C02E44;
+        height: 80px;
+    }
 
-.form-group{
-    display: flex;
-    justify-content: center;
+    .form-group {
+        display: flex;
+        justify-content: center;
+    }
+
+    #wpcf7-f138-p29-o2>form>div.form-container>div.form-section.col_g {
+        border: none;
+        padding: 0px;
+    }
+
+    #content>div>div>div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded>div.elementor-element.elementor-element-bad43d2.elementor-absolute.elementor-widget__width-initial.canette-planty.elementor-hidden-mobile.elementor-widget.elementor-widget-image>div>img {
+        width: 85%;
+    }
+
+    /* Feuille gauche */
+    #content > div > div > div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-a5538ea.elementor-absolute.feuille-g.elementor-widget.elementor-widget-image {
+        left: 13%;
+    }
     
-}
+    /* Feuille droite */
+    #content > div > div > div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-0719614.elementor-absolute.feuille-d.elementor-widget.elementor-widget-image {
+        right: 15%;
+    }
 
-#wpcf7-f138-p29-o2 > form > div.form-container > div.form-section.col_g{
-border:none;
-padding: 0px;
-}
+    body:not(.rtl) .elementor-10 .elementor-element.elementor-element-0719614 {
+        left: 531px;
+    }
 
-#content > div > div > 
-div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > 
-div.elementor-element.elementor-element-bad43d2.elementor-absolute.elementor-widget__width-initial.canette-planty.elementor-hidden-mobile.elementor-widget.elementor-widget-image > 
-div > img {
+    /*HEADER*/
+    li.menu-item a[href*="wp-admin"] {
+        text-align: start;
+        margin-left: 50px;
+    }
 
-    width: 85%;
-}
-
-/*HEADER*/
-li.menu-item a[href*="wp-admin"] {
-text-align:start;
-margin-left: 50px;
-}
-
-/*CANETTE HOME*/
-
-.elementor-10 .elementor-element.elementor-element-bad43d2 img{
-    height: 572px;
-}
+    /*CANETTE HOME*/
+    .elementor-10 .elementor-element.elementor-element-bad43d2 img {
+        height: 572px;
+    }
 
 }
-
-
-
 
 /************ RESPONSIVE MOBILE ************/
 
-@media only screen and (max-width: 320px){
+@media only screen and (max-width: 320px) {
 
-/*FORMULAIRE CONTACT*/
+    /*FORMULAIRE CONTACT*/
 
-#wpcf7-f168-p17-o1 > form > div.form-contact > p:nth-child(3) > label > span > textarea{
-border:none;
-width: 100%;
-border-radius: 5px;
-}
+    #wpcf7-f168-p17-o1>form>div.form-contact>p:nth-child(3)>label>span>textarea {
+        border: none;
+        width: 100%;
+        border-radius: 5px;
+    }
 
-.mail input{
+    .mail input {
+        width: 100%;
+        height: 71px;
+        border: none;
+        border-radius: 5px;
+        font-size: 15px;
+        display: block;
+    }
 
-width: 100%;
-height: 71px ;
-border: none ;
-border-radius: 5px ;
-font-size: 15px ;
-display: block;
-}
+    .name input {
+        width: 100%;
+        height: 71px;
+        border: none;
+        border-radius: 5px
+    }
 
-.name input {
+    .title-form .contact-us {
+        margin-top: 40px;
+    }
 
-width: 100%;
-height: 71px ;
-border: none ;
-border-radius: 5px 
-}
+    /*FORMULAIRE COLONNE*/
 
-.title-form .contact-us{
-    margin-top:40px;
-}
+    .form-container {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
 
+    .form-container [type="text"],
+    input[type="email"] {
+        width: 100%;
+    }
 
+    #wpcf7-f138-p29-o2>form>p>input
 
-/*FORMULAIRE COLONNE*/
+    /*bouton formulaire deux colonnes*/
+    {
+        margin: 0 auto;
+    }
 
-.form-container {
-    display: flex;
-    flex-direction: column;
-    align-content: center;           
-    justify-content: space-between; 
-    gap: 20px; 
-}
+    #wpcf7-f138-p29-o2>form>div.form-container>div.form-section.col_g {
+        border: none;
+        padding: 0px;
+    }
 
-.form-container [type="text"], input[type="email"]{
-    width: 100%;
-}
+    /*HEADER*/
+    .btn-commander {
+        height: 80px;
+        width: 200px;
+        background-color: #dc9f96 !important;
+    }
 
-#wpcf7-f138-p29-o2 > form > p > input /*bouton formulaire deux colonnes*/{
-    margin: 0 auto;
-}
+    .btn-commander a {
+        color: white !important;
+        font-weight: 700 !important;
+        font-size: 16px !important;
+        background-color: #dc9f96 !important;
+    }
 
-#wpcf7-f138-p29-o2 > form > div.form-container > div.form-section.col_g{
-border:none;
-padding: 0px;
-}
+    .btn-commander :hover {
+        background-color: #C02E44;
+        height: 80px;
+    }
 
-/*HEADER*/
-.btn-commander {
-  height: 80px;
-  width: 200px;
-  background-color: #dc9f96 !important;
-}  
+    .form-group {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
 
-.btn-commander a{
-    color: white !important;
-    font-weight: 700 !important;
-    font-size: 16px !important;
-background-color: #dc9f96 !important;
-}
+    #wpcf7-f138-p29-o2>form>div.form-container>div.form-section.col_g {
+        border: none;
+        padding: 0px;
+    }
 
-.btn-commander :hover{
-    background-color:#C02E44;
-    height: 80px;
-}
+    /*PAGE D ACCUEIL*/
 
-.form-group{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-}
+    .elementor-10 .elementor-element.elementor-element-ef5029d .gallery
 
-#wpcf7-f138-p29-o2 > form > div.form-container > div.form-section.col_g{
-border:none;
-padding: 0px;
-}
+    /*Gallerie photo*/
+        {
+        margin: 0 auto;
+    }
 
-/*PAGE D ACCUEIL*/
+    .elementor-10 .elementor-element.elementor-element-ef5029d .gallery-item
 
-.elementor-10 .elementor-element.elementor-element-ef5029d .gallery /*Gallerie photo*/{
-margin: 0 auto;
+    /*Image Gallerie*/
+        {
+        padding-right: 0;
+        padding-bottom: 50px;
+    }
+    
+    /*CANNETTE FOOTER */
 
-}
-.elementor-10 .elementor-element.elementor-element-ef5029d .gallery-item /*Image Gallerie*/{
-padding-right: 0;
-padding-bottom: 50px;
+    #content>div>div>div.elementor-element.elementor-element-6125452.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded>div>div>div>img {
+        height: 47px !important;
+    }
 
-}
+    .footer-rencontrer {
+        height: auto;
+    }
 
-/*CANNETTE FOOTER */
+    /* Canette Home */
+    .elementor-10 .elementor-element.elementor-element-bad43d2 img {
+        height: 300px;
+    }
 
-#content > div > div > div.elementor-element.elementor-element-6125452.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded > 
-div > div > div > img{
-    height: 47px !important;
-}
+    /* Feuille gauche */
+    #content > div > div > div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-a5538ea.elementor-absolute.feuille-g.elementor-widget.elementor-widget-image {
+        left: 6%;
+    }
+    
+    /* Feuille droite */
+    #content > div > div > div.elementor-element.elementor-element-446cc84.e-grid.e-con-full.background.e-con.e-parent.e-lazyloaded > div.elementor-element.elementor-element-0719614.elementor-absolute.feuille-d.elementor-widget.elementor-widget-image {
+        right: 4%;
+    }
 
-.footer-rencontrer{
-    height: auto;
-}
+    body:not(.rtl) .elementor-10 .elementor-element.elementor-element-0719614 {
+        left: 177px;
+    }
 
 }
